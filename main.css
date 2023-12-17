@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header 
+{background-color: rgb(36, 92, 73);
+color: #c7f7d2;
+padding: 16px;
+}
+
+header nav li {
+display: inline;
+margin-left: 20pxpx;
+margin-bottom: 15px;
+font-size: 18px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #c7f7d2;
+    display: block;
+}
+
+header h1, section h2, section h3, button{
+    font-family: 'Abril Fatface', serif;
+    font-weight: normal
+}
+
+header .container, section .container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    }
+
+body {
+background-color: rgb(188, 245, 226);
+}
+
+article img{
+    .article article img{height: 180px;}
+}
+
+body, input, textarea{
+    font-family: 'Alegreya', serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+hr {
+    border-top: 5px;
+    margin: 2px;
+    height: 5px;
+    background-color: #c7f7d2;
+}
+
+.social-links img {
+    height:  24px;
+    }
