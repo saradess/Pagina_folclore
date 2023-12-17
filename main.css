@@ -38,12 +38,20 @@ body {
 background-color: rgb(188, 245, 226);
 }
 
+.article article h3{ margin-top: 8px; margin-bottom: 8px;} 
+
 article img{
     .article article img{height: 180px;}
 }
 
 body, input, textarea{
     font-family: 'Alegreya', serif;
+}
+
+section{padding: 16px 0; margin-left: 30px;}
+
+section #contos {
+    margin-top: 16px;
 }
 
 .container {
