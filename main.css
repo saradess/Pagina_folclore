@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing:border-box;
 }
+
+header .container {display:flex; 
+    align-items: center; 
+    justify-content:space-between;
+    font-size: large;}
+
 header h1, section h2, section h3, form button{
     font-family: 'Abril Fatface', serif;
     font-weight: normal;
@@ -26,9 +32,18 @@ header nav li {
     font-size: 28px;
 }
 
+header nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
 header nav li a{
     color:#fff;
     text-decoration: none;
+}
+
+.container article #folclore{
+    height: 1000px;
 }
 
 .container {
@@ -40,6 +55,7 @@ header nav li a{
 .container .article img {
     height: 400px;
 }
+
 
 p {
     text-align: justify;
