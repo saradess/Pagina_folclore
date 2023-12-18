@@ -37,10 +37,12 @@ header nav li a{
     margin: 16px auto;
 }
 
+.container .article img {
+    height: 400px;
+}
 
-.container article img{
-    /*height:180px*/;
-    width: 100%;
+p {
+    text-align: justify;
 }
 
 section .container {
