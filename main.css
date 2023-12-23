@@ -52,6 +52,10 @@ header nav li a{
     margin: 16px auto;
 }
 
+.container section{
+    background-color:#93c7af2c
+}
+
 .container .article img {
     height: 400px;
 }
