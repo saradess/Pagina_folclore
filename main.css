@@ -43,7 +43,7 @@ header nav li a{
 }
 
 .container article #folclore{
-    height: 1000px;
+    height: 1000px
 }
 
 .container {
@@ -52,12 +52,13 @@ header nav li a{
     margin: 16px auto;
 }
 
-.container section{
-    background-color:#93c7af2c
+.container section .article{
+    background-color:#24322b63;
+    justify-content: center;
 }
 
 .container .article img {
-    height: 400px;
+    height: 400px
 }
 
 
@@ -71,7 +72,7 @@ section .container {
 
 section {
     padding: 24px 0;
-    color: #012a13;
+    color:#012a13;
 }
 
 section h2 {
