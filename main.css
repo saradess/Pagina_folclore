@@ -50,6 +50,8 @@ header nav li a{
     max-width: 1366px;
     width: 100%;
     margin: 16px auto;
+    flex-grow: 1;
+    display: flexbox;
 }
 
 .container section .article{
@@ -87,10 +89,12 @@ section p {
     height:  24px;
     }
 
-.container #Contact {
+.container-contact #Contact {
     display: flex;
     justify-content: space-between;
     margin: 16, 0;
+    background-color: #012a13;
+    color:#fff
 }
 
 .social-links {
@@ -118,14 +122,14 @@ section h3{
 }
 
 form button {
-    background-color: #012a13;
-    color: #fff;
+    background-color: #f9fbfa;
+    color:#012a13;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color:#093d25;
+    background-color:#173d2b;
 }
 
 input:focus, textarea:focus {
