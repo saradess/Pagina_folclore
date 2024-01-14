@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing:border-box;
 }
 
@@ -16,7 +16,8 @@ header h1, section h2, section h3, form button{
 
 body, input, textarea {
     font-family: 'Alegreya', serif;
-    font-size: 28px;
+    font-size: 150%;
+    /*font-size: 28px*/
     color: #012a13;
 }
 
@@ -28,7 +29,7 @@ header{
 
 header nav li {
     display: inline;
-    margin-left: 16px;
+    margin-left: 16px;;
     font-size: 28px;
 }
 
@@ -43,7 +44,9 @@ header nav li a{
 }
 
 .container article #folclore{
-    height: 1000px
+    height: auto;
+    width: 60%;
+    /*height: 1000px*/
 }
 
 .container {
@@ -137,7 +140,7 @@ input:focus, textarea:focus {
 }
 
 #redes li img{
-    height: 24px;
+    height: 0,6%;
 }
 
 footer {
