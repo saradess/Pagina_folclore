@@ -4,7 +4,8 @@
     box-sizing:border-box;
 }
 
-header .container {display:flex; 
+header .container {
+    display:flexbox; 
     align-items: center; 
     justify-content:space-between;
     font-size: large;}
@@ -43,6 +44,12 @@ header nav li a{
     text-decoration: none;
 }
 
+header .container img{
+    height: 300px;
+    width: 25%;
+    border-radius: 20px;
+}
+
 .container article #folclore{
     height: auto;
     width: 60%;
@@ -58,7 +65,6 @@ header nav li a{
 }
 
 .container section .article{
-    background-color:#24322b63;
     justify-content: center;
 }
 
@@ -95,6 +101,7 @@ section p {
     }
 
 .container-contact #Contact {
+    height: 400px;
     display: flex;
     justify-content: space-between;
     margin: 16, 0;
@@ -106,20 +113,30 @@ section p {
 display: inline;
 }
 
+.social-links h3{
+    padding: 20px;
+}
+
 .social-links li a {
     text-decoration:none;
 }
 
+
+form {
+    padding:20px;
+    margin:0
+}
+
 form input, form textarea, form button {
+    font-size: 18px;
     display: block;
-    width: 320px;
     margin-bottom: 8px;
     padding: 8px;
 }
 
 form textarea {
     resize: none;
-    height: 180px;
+    height: 100px;;
 }
 
 section h3{
@@ -147,9 +164,19 @@ input:focus, textarea:focus {
 
 footer {
     padding: 16px, 0;
-    margin-top: 58px;
+    margin: 58;
 }
 
 @media only screen and (max-width:600px) {
-    /*Estilos para telas menores que 600px de largura*/
+    body, input, textarea {
+        font-size: 28px
+    }
+
+    .container article #folclore{
+        height: 1000px
+    }
+
+    .container .article img{
+        height: 400px1
+    }
 }
