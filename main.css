@@ -168,24 +168,14 @@ footer {
 }
 
 @media only screen and (max-width:600px) {
-    body, input, textarea {
-        font-size: 28px;
-    }
-
-    .container article #folclore{
-        height: 1000px;
-    }
-
-    .container .article img{
-        height: 400px;
-    }
-
-    .sobre article img {
-        height: 45%;
-    }
-
     .responsividade {
         height: 650px;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .responsividade img {
+        height: 50px;
         width: 100%;
     }
 }
