@@ -97,13 +97,13 @@ section p {
 }
 
 .social-links img{
-    height:  24px;
+    height:  50px;
     }
 
 .container-contact #Contact {
     height: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     margin: 16, 0;
     background-color: #012a13;
     color:#fff
@@ -169,14 +169,23 @@ footer {
 
 @media only screen and (max-width:600px) {
     body, input, textarea {
-        font-size: 28px
+        font-size: 28px;
     }
 
     .container article #folclore{
-        height: 1000px
+        height: 1000px;
     }
 
     .container .article img{
-        height: 400px1
+        height: 400px;
+    }
+
+    .sobre article img {
+        height: 45%;
+    }
+
+    .responsividade {
+        height: 650px;
+        width: 100%;
     }
 }
