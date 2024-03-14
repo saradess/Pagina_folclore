@@ -28,7 +28,7 @@ body, input, textarea {
     color: #012a13;
 }
 
-header{
+header, footer{
     padding: 16px;
     background-color: #093d25;
     color:#fff;
@@ -56,15 +56,12 @@ header .container img{
     border-radius: 20px;
 }
 
-.container article #folclore{
+.container article {
     height: auto;
     width: 60%;
     /*height: 1000px*/
 }
 
-.article{
-    position: relative;
-}
 
 .container {
     max-width: 1366px;
@@ -78,13 +75,6 @@ header .container img{
     justify-content: center;
 }
 
-.container .article img {
-    position: relative;
-    height: auto;
-    width: 50%;
-    /*height: 400px*/
-}
-
 
 p {
     text-align: justify;
@@ -94,12 +84,12 @@ section .container {
         align-items: flex-start;
 }
 
-section {
+section, .container-contact #Contact {
     padding: 24px 0;
     color:#ffffff;
     background: transparent;
     backdrop-filter: blur(10px);
-    min-height: 690px; 
+    min-height: 620px; 
     width: 100%; /* Ou ajuste conforme necessário */
     border-radius: 8px;
     margin-top: 50px;
@@ -114,65 +104,37 @@ section p {
     margin-bottom: 8px;
 }
 
-.article article .overlay-imagem-link {
-    position: absolute;
-    top: 450px;
-    left: 0;
-    width: 50%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.5); /* fundo semi-transparente para o link */
-    color: white; /* cor do texto do link */
-    display:flex;/*se mexer nisso o link fica torto, se não mexer fica igual quando mexe*/
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    text-decoration: none; /* remover decoração do link */
+
+article .overlay-imagem-link{
+    position: relative;
 }
 
-.overlay-imagem-link a {
+article .overlay-imagem-link a {
     color: #fff;
     text-decoration: none;
 }
 
-article .article:hover .overlay-imagem-link {
-    opacity: 0;
+article .overlay-imagem-link img{
+    position: relative;
+    height: auto;
+    width: 60%;
+    /*height: 400px; porque Deus eu fui mecher nisso agora nada mais da certo, eu vou chorar até dormir em cima do teclado quem sabe o código fique com pena e volte ao normal*/
 }
-
-.social-links img{
-    height:  50px;
-    }
 
 .container-contact #Contact {
     height: 400px;
     display: flex;
     justify-content:space-around;
     margin: 16, 0;
-    background-color: #012a13;
     color:#fff
-}
-
-.social-links {
-display: inline;
-}
-
-.social-links h3{
-    padding: 20px;
-}
-
-.social-links li {
-    list-style: none;
-}
-
-.social-links li a {
-    text-decoration:none;
 }
 
 form textarea{
     width: 100%;
+    height: 150px;
     display: block;
-    padding: 54px;
     font-size: 20px;
-    
+    resize: none;
 }
 
 
@@ -188,11 +150,6 @@ form input, form button {
     padding: 8px;
 }
 
-form textarea {
-    resize: none;
-    height: 100px;;
-}
-
 section h3{
     margin-bottom: 16px;
 }
@@ -202,6 +159,7 @@ form button {
     color:#012a13;
     border: none;
     cursor: pointer;
+    margin-top: 8px;
 }
 
 form button:hover {
@@ -212,44 +170,35 @@ input:focus, textarea:focus {
     outline-color:#012a13;
 }
 
-#redes li img{
-    height: 0,6%;
+footer ul{
+    margin-top: 12px;
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer li a {
+    text-decoration:none;
 }
 
 footer {
     padding: 16px, 0;
     margin: 58;
+    display: flex;
+    justify-content: space-between;
 }
 
-@media only screen and (max-width:600px) {
-    .responsividade {
-        height: 650px;
-        width: 100%;
-        font-size: 20px;/*tentativa de responsividade que estou fazendo apenas para me humilhar porque não sei fazer isto ainda*/
+
+footer ul img{
+    height:  50px;
     }
 
-    .responsividade header li a{
-        font-size: 15px;
-        font-weight: bold;
+.container-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     }
-
-    .responsividade header img {
-        height: auto;
-        width: 25%;
-    }
-
-    .responsividade h2 {
-        font-size: 28px;
-        font-weight: bold;
-    }
-
-    .responsividade h3 {
-        font-size: 25px;
-        font-weight: normal;
-    }
-
-    .responsividade img {
-        height: 50px;
-        width: 100%;
-    }
-}
