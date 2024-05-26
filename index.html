@@ -16,13 +16,180 @@
     <header  class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
         <div class="container">
             <h1 class="navbar-brand m-0 section-title fs-1">Mãe D'Agua</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pilss d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">Sobre</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pilss d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">Contos</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pilss d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
+<div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./midias/slide_folc_01.jpg" class="w-100 custom-carousel-image">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./midias/slide_folc_02.jpg" class="w-100 custom-carousel-image">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./midias/slide_folc_03.jpg" class="w-100 custom-carousel-image">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./midias/curupira 2.jpg" class="d-block rounded w-100">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title fa-3">Sobre o Folclore brasileiro</h2>
+                        <p>Folclore refere-se ao conjunto de tradições, lendas, mitos, costumes, músicas, danças e outras expressões culturais transmitidas oralmente de geração em geração dentro de uma comunidade. É a manifestação da cultura popular, enraizada nas crenças, valores e histórias de um determinado grupo de pessoas. O folclore é uma parte importante da identidade cultural de uma sociedade e ajuda a preservar e transmitir o conhecimento ancestral de uma comunidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-5 pb-5" id="contos">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title fa-3">Alguns contos populares</h2>
+                <div class="row mt-4">
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+                    <!--alterar img | definir posicionamentos dos cards | testar ease-in-out nesta versão-->
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-5 mb-5">
+                        <div class="card text-bg-dark ">
+                            <img src="./midias/saci.JPEG"/>
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Saci</h4>
+                                <h5 class="card-subtitle">Peralta de uma perna</h5>
+                                <p class="card-text">
+                                    O saci-pererê é um ser mítico conhecido por sua travessura e por pregar peças nas pessoas. Geralmente é descrito com uma perna só, sem pelos e usando um gorro vermelho, além de fumar um cachimbo. Em algumas versões, tem olhos vermelhos. Sua imagem clássica é de um ser travesso e endiabrado que adora fazer brincadeiras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 <script src="./js/jquery.mask.min.js"></script>
-<script src="./js/jquery.validate.min.js"></script>
-<script src="./js/messages_pt_BR.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>

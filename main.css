@@ -1,4 +1,8 @@
-.navbar-brand{
+.col-md-7 p {
+    font-family: "Peddana", serif;
+}
+
+.navbar-brand,.section-title {
     font-family: "Tangerine", cursive;
     font-style: normal;
 }
