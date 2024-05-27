@@ -1,0 +1,90 @@
+.col-md-7 p {
+    font-family: "Peddana", serif;
+}
+
+.navbar-brand,.section-title {
+    font-family: "Tangerine", cursive;
+    font-style: normal;
+}
+
+.navbar h1{
+    color: #ffeae6;
+}
+
+.navbar, .footer{
+    background: linear-gradient(to right, #012510,#024920,#037432,#04a246);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #68967b;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+    .navbar-brand,
+    navbar-brand:hover,
+    .nav-cardapio .nav-link.active:hover{
+    color: #fff;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.text-colored{
+    color:#024920
+}
+
+.custom-carousel-image{
+    height: 37.5em;
+    object-fit: cover;
+}
+
+.card img {
+    object-fit: cover; 
+    height: 100%;
+}
+
+.card-title, .card-subtitle, .card-text {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    overflow: hidden;
+}
+
+#fale-conosco button{
+    background: linear-gradient(to right, #012510,#024920,#037432,#04a246);
+    color:#fff;
+    border: none;
+}
+
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    color: #ffeae6;
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
