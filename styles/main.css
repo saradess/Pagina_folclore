@@ -23,7 +23,7 @@
 #cabecalho .nav .nav-link,
     .navbar-brand,
     navbar-brand:hover,
-    .nav-cardapio .nav-link.active:hover{
+    .nav-link.active:hover{
     color: #fff;
     border-radius: 5px;
 }
@@ -81,8 +81,14 @@
     text-decoration: none;
 }
 
+.container h3{
+    text-align: start;
+}
+
+
 .footer{
     color: #ffeae6;
+    text-align: center;
 }
 
 
